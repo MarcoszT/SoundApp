@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8D73AAA32EBD2EA000AC0172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D73AA9F2EBD2EA000AC0172 /* Assets.xcassets */; };
+		8D73AAA42EBD2EA000AC0172 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D73AAA02EBD2EA000AC0172 /* ContentView.swift */; };
+		8D73AAA52EBD2EA000AC0172 /* SoundAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D73AAA12EBD2EA000AC0172 /* SoundAppApp.swift */; };
+		8D73AAAF2EBD3C7600AC0172 /* deephouse1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D73AAAB2EBD3C7600AC0172 /* deephouse1.mp3 */; };
+		8D73AAB02EBD3C7600AC0172 /* house1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D73AAAD2EBD3C7600AC0172 /* house1.mp3 */; };
+		8D73AAB12EBD3C7600AC0172 /* deephouse2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D73AAAC2EBD3C7600AC0172 /* deephouse2.mp3 */; };
+		8D73AAB22EBD3C7600AC0172 /* house2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D73AAAE2EBD3C7600AC0172 /* house2.mp3 */; };
+		8D73AAB42EBD7D2F00AC0172 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D73AAB32EBD7D2F00AC0172 /* Song.swift */; };
+		8D73AAB82EBD816C00AC0172 /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D73AAB72EBD816C00AC0172 /* SongData.swift */; };
+		8D73AABA2EBD82E700AC0172 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D73AAB92EBD82E700AC0172 /* MusicViewModel.swift */; };
+		8D73AABC2EBD89D900AC0172 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D73AABB2EBD89D900AC0172 /* PlayerView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8D73AA912EBD2DA700AC0172 /* SoundApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D73AA9F2EBD2EA000AC0172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D73AAA02EBD2EA000AC0172 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D73AAA12EBD2EA000AC0172 /* SoundAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAppApp.swift; sourceTree = "<group>"; };
+		8D73AAAB2EBD3C7600AC0172 /* deephouse1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = deephouse1.mp3; sourceTree = "<group>"; };
+		8D73AAAC2EBD3C7600AC0172 /* deephouse2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = deephouse2.mp3; sourceTree = "<group>"; };
+		8D73AAAD2EBD3C7600AC0172 /* house1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = house1.mp3; sourceTree = "<group>"; };
+		8D73AAAE2EBD3C7600AC0172 /* house2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = house2.mp3; sourceTree = "<group>"; };
+		8D73AAB32EBD7D2F00AC0172 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		8D73AAB72EBD816C00AC0172 /* SongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongData.swift; sourceTree = "<group>"; };
+		8D73AAB92EBD82E700AC0172 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		8D73AABB2EBD89D900AC0172 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8D73AA932EBD2DA700AC0172 /* SoundApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SoundApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8D73AA8E2EBD2DA700AC0172 /* Frameworks */ = {
@@ -32,7 +49,7 @@
 		8D73AA882EBD2DA700AC0172 = {
 			isa = PBXGroup;
 			children = (
-				8D73AA932EBD2DA700AC0172 /* SoundApp */,
+				8D73AAA22EBD2EA000AC0172 /* SoundApp */,
 				8D73AA922EBD2DA700AC0172 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,64 @@
 				8D73AA912EBD2DA700AC0172 /* SoundApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8D73AAA22EBD2EA000AC0172 /* SoundApp */ = {
+			isa = PBXGroup;
+			children = (
+				8D73AAA82EBD2EC200AC0172 /* ViewModels */,
+				8D73AAA72EBD2EAD00AC0172 /* Views */,
+				8D73AAA62EBD2EA500AC0172 /* Models */,
+				8D73AA9F2EBD2EA000AC0172 /* Assets.xcassets */,
+				8D73AAA02EBD2EA000AC0172 /* ContentView.swift */,
+				8D73AAA12EBD2EA000AC0172 /* SoundAppApp.swift */,
+				8D73AAA92EBD3A3800AC0172 /* Resource */,
+			);
+			path = SoundApp;
+			sourceTree = "<group>";
+		};
+		8D73AAA62EBD2EA500AC0172 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D73AAB32EBD7D2F00AC0172 /* Song.swift */,
+				8D73AAB72EBD816C00AC0172 /* SongData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D73AAA72EBD2EAD00AC0172 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D73AABB2EBD89D900AC0172 /* PlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D73AAA82EBD2EC200AC0172 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8D73AAB92EBD82E700AC0172 /* MusicViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8D73AAA92EBD3A3800AC0172 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8D73AAAA2EBD3A8800AC0172 /* Songs */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8D73AAAA2EBD3A8800AC0172 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				8D73AAAB2EBD3C7600AC0172 /* deephouse1.mp3 */,
+				8D73AAAC2EBD3C7600AC0172 /* deephouse2.mp3 */,
+				8D73AAAD2EBD3C7600AC0172 /* house1.mp3 */,
+				8D73AAAE2EBD3C7600AC0172 /* house2.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +134,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8D73AA932EBD2DA700AC0172 /* SoundApp */,
 			);
 			name = SoundApp;
 			packageProductDependencies = (
@@ -109,6 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D73AAAF2EBD3C7600AC0172 /* deephouse1.mp3 in Resources */,
+				8D73AAB02EBD3C7600AC0172 /* house1.mp3 in Resources */,
+				8D73AAB12EBD3C7600AC0172 /* deephouse2.mp3 in Resources */,
+				8D73AAB22EBD3C7600AC0172 /* house2.mp3 in Resources */,
+				8D73AAA32EBD2EA000AC0172 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D73AABA2EBD82E700AC0172 /* MusicViewModel.swift in Sources */,
+				8D73AAB42EBD7D2F00AC0172 /* Song.swift in Sources */,
+				8D73AAA42EBD2EA000AC0172 /* ContentView.swift in Sources */,
+				8D73AABC2EBD89D900AC0172 /* PlayerView.swift in Sources */,
+				8D73AAB82EBD816C00AC0172 /* SongData.swift in Sources */,
+				8D73AAA52EBD2EA000AC0172 /* SoundAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +339,13 @@
 				DEVELOPMENT_TEAM = S6R728NPBH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,11 +373,13 @@
 				DEVELOPMENT_TEAM = S6R728NPBH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
