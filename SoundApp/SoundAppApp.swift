@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SoundAppApp: App {
+    @StateObject private var musicVM = MusicViewModel()
+
     var body: some Scene {
         WindowGroup {
-            PlayerView()
+            MainTabView()
         }
     }
 }
+
+

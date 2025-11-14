@@ -8,8 +8,37 @@
 import SwiftUI
 
 struct MainTabView: View {
+    @StateObject private var viewModel = MusicViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            // HOME
+            NavigationStack {
+                HomeView(viewModel: viewModel)
+            }
+            .tabItem {
+                Image(systemName: "house.fill")
+                Text("Home")
+            }
+
+            // FAVORITOS
+            NavigationStack {
+                FavoritesView(viewModel: viewModel)
+            }
+            .tabItem {
+                Image(systemName: "heart.fill")
+                Text("Favoritos")
+            }
+
+            // BUSCAR
+            NavigationStack {
+                SearchView(viewModel: viewModel)
+            }
+            .tabItem {
+                Image(systemName: "magnifyingglass")
+                Text("Buscar")
+            }
+        }
     }
 }
 
